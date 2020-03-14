@@ -1,0 +1,29 @@
+1. 
+  a. /index.txt 
+- Content-Type: text/plain
+- Content-Length: 14
+- Server: nginx/1.2.2
+
+  b. /image/web_technologies.png
+- Content-Type: image/png
+- Content-Length: 335525
+- Server: nginx/1.2.2
+
+  c. /media/Water.mp4
+- Content-Type: application/octet-stream
+- Content-Length: 1137202
+- Server: nginx/1.2.2
+
+2. 
+  a. Status Code: 404 Not Found - код ошибки. Пользователь перешел на страницу, где на данный момент отсутствует нужный текст и какой-либо контент.
+     Решение: Необходимо разместить на сервере данный ресурс.
+  b. Status Code: 200 OK - запрос выполнен успешно. Request Method: GET - Запрошенный ресурс был найден и передан в теле ответа.
+  с. Status Code: 302 Found - запрошенный ресурс был временно перемещен по адресу, указанному в заголовке Location: http://fi2.php.net/manual/ru/
+  d. HTTP ERROR 400 - код ошибки, сервер обнаружил в запросе клиента синтаксическую ошибку.
+     Решение: Необходимо исправить синтаксическую ошибку, т.е. заменить hardly на hard и выполнить запрос http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
+3.
+  Документы, переданные с HTTP могут послать charset параметр к заголовку HTTP, чтобы указать кодировку символов документа.
+  Если charset не задан, то в HTTP 1.1 говорится, что по умолчанию charset должен быть ISO-8859-1.
+  Если charset указан неверно, то браузер отобразит в заданной кодировка, т.е. получим нечитаемый текст.
+  http://localhost/lw1/all_begin_from_http.html - отдает нечитаемый текст, т.к. не указана кодировка.
+  Решение: Указать в all_begin_from_http.html кодировку <meta charset="utf-8"/>.
