@@ -19,8 +19,8 @@
      Решение: Необходимо разместить на сервере данный ресурс.
   b. Status Code: 200 OK - запрос выполнен успешно. Request Method: GET - Запрошенный ресурс был найден и передан в теле ответа.
   с. Status Code: 302 Found - запрошенный ресурс был временно перемещен по адресу, указанному в заголовке Location: http://fi2.php.net/manual/ru/
-  d. HTTP ERROR 400(Failed to load resource: the server responded with a status of 400 (Work hard!)) - код ошибки, сервер обнаружил в запросе клиента синтаксическую ошибку(через метод GET переданы неправильные данные).
-     Решение: Необходимо исправить синтаксическую ошибку, т.е. заменить hardly на hard и выполнить запрос http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
+  d. HTTP ERROR 400(Failed to load resource: the server responded with a status of 400 (Work hard!)) - эта ошибка означает, что пользователь (его браузер) отправил неправильный запрос на сервер где расположен сайт.
+     Решение: Необходимо заменить hardly на hard и выполнить запрос http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hard
 3.
   Документы, переданные с HTTP могут послать charset параметр к заголовку HTTP, чтобы указать кодировку символов документа.
   Если charset не задан, то в HTTP 1.1 говорится, что по умолчанию charset должен быть ISO-8859-1.
