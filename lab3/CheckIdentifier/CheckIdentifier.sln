@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifier", "CheckIdentifier\CheckIdentifier.csproj", "{ABDF7A8E-50BB-4EDE-9BAD-D1B7F8BD1824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifier.Test", "CheckIdentifier.Test\CheckIdentifier.Test.csproj", "{AA4FC865-1800-45FE-B853-F4FFC188E4E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDF7A8E-50BB-4EDE-9BAD-D1B7F8BD1824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF7A8E-50BB-4EDE-9BAD-D1B7F8BD1824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF7A8E-50BB-4EDE-9BAD-D1B7F8BD1824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF7A8E-50BB-4EDE-9BAD-D1B7F8BD1824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4FC865-1800-45FE-B853-F4FFC188E4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4FC865-1800-45FE-B853-F4FFC188E4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4FC865-1800-45FE-B853-F4FFC188E4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4FC865-1800-45FE-B853-F4FFC188E4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE4C1BA2-F470-40AA-9B85-7336E6EB01DA}
+	EndGlobalSection
+EndGlobal
