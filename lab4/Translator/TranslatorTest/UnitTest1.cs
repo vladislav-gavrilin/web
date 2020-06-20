@@ -7,8 +7,8 @@ namespace TranslatorTests
     {
         [TestCase("", null)]
         [TestCase("some", null)]
-        [TestCase("book", "книга")]
-        [TestCase("книга", "book")]
+        [TestCase("book", "РєРЅРёРіР°")]
+        [TestCase("РєРЅРёРіР°", "book")]
         public void Translate_ShouldReturnTranslationOrNull(string word, string answer)
         {
             Translator.Translator dictionary = new Translator.Translator("../../../../Translator/dictionary.txt");
